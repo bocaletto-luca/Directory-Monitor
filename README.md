@@ -3,7 +3,8 @@
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 
-Self-contained Python application for polling-based directory monitoring.  
+Directory Monitor GUI is a self-contained Python application with a Tkinter interface for configuring and monitoring multiple directories via polling. Add or remove folders, set polling intervals, toggle recursive scans and hidden entries, apply include/exclude glob filters, and view real-time logs in-app or export to a file. Use Start/Stop buttons to control sessions.
+
 Languages English and Italian interfaces in two standalone scripts:
 
 - **main_eng.py** – English UI and prompts  
