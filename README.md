@@ -4,7 +4,7 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 
 Self-contained Python application for polling-based directory monitoring.  
-Offers both English and Italian interfaces in two standalone scripts:
+Languages English and Italian interfaces in two standalone scripts:
 
 - **main_eng.py** – English UI and prompts  
 - **main_ita.py** – Italian UI and prompts  
