@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Directory Monitor – Python Polling-Based File & Folder Watcher</title>
+  <meta name="description" content="Directory Monitor is a pure-Python, polling-based tool to watch multiple directories for file/folder changes. No external dependencies.">
+  <meta name="keywords" content="Directory Monitor, Python, polling, file watcher, folder watcher, stdlib, no dependencies, GPLv3">
+  <meta name="author" content="Bocaletto Luca">
+  <link rel="canonical" href="https://bocaletto-luca.github.io/Directory-Monitor/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Directory Monitor – Python Polling-Based File & Folder Watcher">
+  <meta property="og:description" content="Monitor multiple folders for create, modify and delete events using a self-contained Python polling script.">
+  <meta property="og:url" content="https://bocaletto-luca.github.io/Directory-Monitor/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Directory Monitor">
+  <meta name="twitter:description" content="Pure-Python tool for polling-based directory monitoring.">
+
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; color: #333; line-height: 1.6; }
+    header { background: #2c3e50; color: #fff; padding: 2rem 1rem; text-align: center; }
+    header h1 { margin: 0; font-size: 2.5rem; }
+    header p { margin: .5rem 0 1rem; font-size: 1.2rem; }
+    .btn { display: inline-block; margin: .5rem; padding: .6rem 1.2rem; background: #e67e22; color: #fff; text-decoration: none; border-radius: 4px; }
+    main { max-width: 900px; margin: auto; padding: 2rem 1rem; }
+    section + section { margin-top: 2rem; }
+    h2 { color: #2c3e50; border-bottom: 2px solid #ecf0f1; padding-bottom: .3rem; }
+    ul { margin: .5rem 0 1rem; padding-left: 1.2rem; }
+    pre, code { background: #f4f4f4; padding: .3rem .6rem; border-radius: 4px; font-family: monospace; }
+    pre { overflow-x: auto; }
+    footer { background: #ecf0f1; text-align: center; padding: 1.5rem; font-size: .9rem; color: #555; margin-top: 3rem; }
+    footer a { color: #2980b9; text-decoration: none; margin: 0 .5rem; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Directory Monitor</h1>
+    <p>Polling-based file & folder watcher written in pure Python (stdlib only)</p>
+    <a class="btn" href="https://github.com/bocaletto-luca/Directory-Monitor" target="_blank">GitHub Repository</a>
+    <a class="btn" href="https://bocaletto-luca.github.io/Directory-Monitor/" target="_blank">Live Demo</a>
+  </header>
+
+  <main>
+    <section id="overview">
+      <h2>Overview</h2>
+      <p>
+        Directory Monitor lets you configure and watch multiple directories for changes—
+        creations, deletions, and modifications—using a simple polling loop. Two standalone
+        scripts support English (<code>main_eng.py</code>) and Italian (<code>main_ita.py</code>)
+        menus. No third-party libraries required.
+      </p>
+    </section>
+
+    <section id="features">
+      <h2>Key Features</h2>
+      <ul>
+        <li>Monitor multiple folders at once</li>
+        <li>Recursive or non-recursive scanning</li>
+        <li>Include or exclude hidden files and directories</li>
+        <li>Advanced glob include/exclude filters</li>
+        <li>Configurable polling interval</li>
+        <li>Real-time console and optional file logging</li>
+        <li>Press <code>ESC</code> to stop monitoring</li>
+        <li>English and Italian user interfaces</li>
+        <li>Self-contained: Python 3.6+ stdlib only</li>
+      </ul>
+    </section>
+
+    <section id="installation">
+      <h2>Installation</h2>
+      <pre><code>git clone https://github.com/bocaletto-luca/Directory-Monitor.git
+cd Directory-Monitor
+
+# (optional) make executable
+chmod +x main_eng.py main_ita.py
+</code></pre>
+      <p>Requires Python 3.6 or newer:</p>
+      <pre><code>python3 --version</code></pre>
+    </section>
+
+    <section id="usage">
+      <h2>Usage</h2>
+      <p>Choose your language script:</p>
+      <pre><code># English menu
+python3 main_eng.py
+
+# Italian menu
+python3 main_ita.py
+</code></pre>
+      <p>Follow the interactive menu to add/remove directories, toggle recursion and hidden files, adjust filters, set log file, and start/stop monitoring.</p>
+    </section>
+
+    <section id="repository">
+      <h2>Repository Structure</h2>
+      <pre><code>Directory-Monitor/
+├── LICENSE            # GPL v3
+├── README.md          # Project documentation
+├── main_eng.py        # English interface
+└── main_ita.py        # Italian interface
+</code></pre>
+    </section>
+
+    <section id="license">
+      <h2>License</h2>
+      <p>
+        Released under the <strong>GNU GPL v3</strong>.  
+        See <a href="LICENSE" target="_blank">LICENSE</a> for details.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Bocaletto Luca</p>
+    <p>
+      <a href="https://bocaletto-luca.github.io/Directory-Monitor/" target="_blank">Homepage</a> |
+      <a href="https://github.com/bocaletto-luca/Directory-Monitor" target="_blank">GitHub</a>
+    </p>
+  </footer>
+
+</body>
+</html>
