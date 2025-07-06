@@ -13,16 +13,9 @@ Languages English and Italian interfaces in two standalone scripts:
 Author: Bocaletto Luca  
 License: GPL v3  
 
-<p align="center">
-  <a href="index.html" style="display:inline-block;padding:0.6em 1.2em;margin:0.5em;background:#28a745;color:#fff;border-radius:4px;text-decoration:none;font-weight:bold;">
-    Read Online (English)
-  </a>
-  <a href="index-ita.html" style="display:inline-block;padding:0.6em 1.2em;margin:0.5em;background:#007bff;color:#fff;border-radius:4px;text-decoration:none;font-weight:bold;">
-    Leggi Online (Italiano)
-  </a>
-</p>
+[![Read Online (English)](https://img.shields.io/badge/Read%20Online-English-blue?style=for-the-badge)](https://bocaletto-luca.github.io/Directory-Monitor/index.html)  
 
----
+[![Leggi Online (Italiano)](https://img.shields.io/badge/Leggi%20Online-Italiano-green?style=for-the-badge)](https://bocaletto-luca.github.io/Directory-Monitor/index-ita.html)
 
 ## Table of Contents
 
