@@ -13,7 +13,6 @@ Languages English and Italian interfaces in two standalone scripts:
 Author: Bocaletto Luca  
 License: GPL v3  
 
----
 <p align="center">
   <a href="index.html" style="display:inline-block;padding:0.6em 1.2em;margin:0.5em;background:#28a745;color:#fff;border-radius:4px;text-decoration:none;font-weight:bold;">
     Read Online (English)
@@ -22,6 +21,7 @@ License: GPL v3
     Leggi Online (Italiano)
   </a>
 </p>
+
 ---
 
 ## Table of Contents
