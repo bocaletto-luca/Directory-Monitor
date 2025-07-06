@@ -1,13 +1,10 @@
 # Directory Monitor
 #### Author: Bocaletto Luca
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue?style=for-the-badge&logo=gnu)] 
-
-[![Python 3.6+](https://img.shields.io/badge/Python-3.6%2B-blue?style=for-the-badge&logo=python)]  
-
-[![Linux-Compatible](https://img.shields.io/badge/Linux-Compatible-blue?style=for-the-badge&logo=linux)]  
-
-[![Status: Complete](https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge)]  
+![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue?style=for-the-badge&logo=gnu) 
+![Python 3.6+](https://img.shields.io/badge/Python-3.6%2B-blue?style=for-the-badge&logo=python)  
+![Linux-Compatible](https://img.shields.io/badge/Linux-Compatible-blue?style=for-the-badge&logo=linux)  
+![Status: Complete](https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge)  
 
 Directory Monitor GUI is a self-contained Python application with a Tkinter interface for configuring and monitoring multiple directories via polling. Add or remove folders, set polling intervals, toggle recursive scans and hidden entries, apply include/exclude glob filters, and view real-time logs in-app or export to a file. Use Start/Stop buttons to control sessions.
 
